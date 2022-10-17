@@ -60,5 +60,5 @@ Now you can install your required language-servers using [`Mason`](https://githu
 ```
 ![Mason](https://user-images.githubusercontent.com/6705160/177617680-d62caf26-f253-4ace-ab57-4b590595adca.png)
 
-<mark>Note: *you will need to setup your language servers inside the `lua/user/lsp/lsp.lua` using [lsp](https://github.com/neovim/nvim-lspconfig#quickstart), check the full list of configs check [server_configurations.md](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)*</mark>
+<mark>Note: *you will need to setup your language servers inside the `lua/user/lsp/lsp.lua` using [lsp](https://github.com/neovim/nvim-lspconfig#quickstart), for the full list of configs check [server_configurations.md](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)*</mark>
 
