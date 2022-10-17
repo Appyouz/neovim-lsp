@@ -33,6 +33,10 @@ Took a lot of reference from
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 
+# Themes
+- [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
+- [tokyonight](https://github.com/folke/tokyonight.nvim)
+- [onedark](https://github.com/navarasu/onedark.nvim)
 
 ## Usage
 
