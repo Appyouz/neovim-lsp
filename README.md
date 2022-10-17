@@ -1,5 +1,13 @@
 # neovim-lsp
-*A personal Neovim config along with c++ auto completion using clangd*
+*A personal Neovim config lua along with c++ auto completion using clangd, all configured using [lsp](https://github.com/neovim/nvim-lspconfig)*
+
+Took a lot of reference from 
+- [Christian Chiarulli](https://github.com/LunarVim/Neovim-from-scratch/tree/master), 
+- [craftzdog](https://github.com/craftzdog/dotfiles-public), 
+- [tuffgniuz](https://github.com/tuffgniuz/nvim.lua)
+<br>
+
+*Theirs repos and youtube videos were really helpful*
 
 ## List of plugins
 - [autopairs](https://github.com/windwp/nvim-autopairs)
