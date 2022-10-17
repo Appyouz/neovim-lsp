@@ -83,9 +83,6 @@ return packer.startup(function(use)
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
-  -- For vsnip users.
-  use 'hrsh7th/cmp-vsnip'
-  use 'hrsh7th/vim-vsnip'
 
 
   -- For installing language servers
