@@ -25,7 +25,7 @@ Took a lot of reference from
 - [numToStr-comment](https://github.com/numToStr/Comment.nvim)
 - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 - [nvim-cursorline](https://github.com/yamatsum/nvim-cursorline)
-- [clangd_extension](https://github.com/p00f/clangd_extensions.nvim)
+<!-- - [clangd_extension](https://github.com/p00f/clangd_extensions.nvim) -->
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 - [impatient](https://github.com/lewis6991/impatient.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
