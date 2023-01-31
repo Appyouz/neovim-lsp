@@ -57,6 +57,8 @@ return packer.startup(function(use)
   use 'numToStr/Comment.nvim' -- comment
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- jsx commenting
   use 'yamatsum/nvim-cursorline'
+  use 'lukas-reineke/indent-blankline.nvim'
+
   -- use 'p00f/clangd_extensions.nvim'
   use 'RRethy/vim-illuminate'
   use 'lewis6991/impatient.nvim'
