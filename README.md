@@ -33,10 +33,10 @@ Took a lot of reference from
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 - [alpha-nvim](https://github.com/goolord/alpha-nvim)
-- [project.nvim](https://github.com/ahmedkhalf/project.nvim)
+- [project.nvim](https://github.com/ahmedkhalf/project.nvim) [still testing]
 
 # Themes
-- [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
+- [gruvbox-material](https://github.com/sainnhe/gruvbox-material) [active theme]
 - [tokyonight](https://github.com/folke/tokyonight.nvim)
 - [onedark](https://github.com/navarasu/onedark.nvim)
 
@@ -64,8 +64,18 @@ Now you can install your required language-servers using [`Mason`](https://githu
 ``` bash
 :Mason
 ```
-![2022-10-17-18:08:44-screenshot](https://user-images.githubusercontent.com/91145436/196191839-21fe6e7f-dfae-4b41-946b-77455f040321.png)
-
+![2023-03-15-22:48:37-screenshot](https://user-images.githubusercontent.com/91145436/225387972-f66d6f5d-f243-4403-a3fc-1fc84c323641.png)
 
 <mark>Note: *you will need to setup your language servers inside the `lua/user/lsp/lsp.lua` using [lsp](https://github.com/neovim/nvim-lspconfig#quickstart), for the full list of configs check [server_configurations.md](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)*</mark>
+
+
+
+## file browser
+![2023-03-15-22:59:25-screenshot](https://user-images.githubusercontent.com/91145436/225388581-904af102-461d-405e-92a4-965ae51953e5.png)
+
+
+## dashboard
+![2023-03-15-22:59:02-screenshot](https://user-images.githubusercontent.com/91145436/225388503-b539aaee-056b-4a7f-b09f-012a0f0ca9f7.png)
+
+
 
