@@ -32,6 +32,8 @@ Took a lot of reference from
 - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim#packer)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
+- [alpha-nvim](https://github.com/goolord/alpha-nvim)
+- [project.nvim](https://github.com/ahmedkhalf/project.nvim)
 
 # Themes
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material)

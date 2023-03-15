@@ -68,7 +68,7 @@ return packer.startup(function(use)
   use 'folke/tokyonight.nvim'
   use 'morhetz/gruvbox'
   use "sainnhe/gruvbox-material"
-
+  use 'tanvirtin/monokai.nvim'
 
   -- Language servers and Auto complete
   use "neovim/nvim-lspconfig" --Lsp servers
@@ -106,6 +106,14 @@ return packer.startup(function(use)
       require("nvim-surround").setup({})
     end
   })
+
+use {
+    'goolord/alpha-nvim',
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.dashboard'.config)
+    end
+}
+use "ahmedkhalf/project.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
