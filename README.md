@@ -9,6 +9,13 @@ Took a lot of reference from
 
 *Theirs repos and youtube videos were really helpful*
 
+# Table of Contents
+* [List of plugins](#list-of-plugins)
+* [Themes](#themes)
+* [Usage](#usage)
+* [Keymaps](#auto-completion-keymaps)
+* [Screenshots](#screenshots)
+
 ## List of plugins
 - [autopairs](https://github.com/windwp/nvim-autopairs)
 - [lua-plenary](https://github.com/nvim-lua/plenary.nvim)
@@ -33,6 +40,13 @@ Took a lot of reference from
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 - [alpha-nvim](https://github.com/goolord/alpha-nvim)
+- [preservevim-tagbar](https://github.com/preservim/tagbar)
+- [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
+- [git.nvim](https://github.com/dinhhuy258/git.nvim)
+- [zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
+- [lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim)
+- [vimwiki](https://github.com/vimwiki/vimwiki)[still testing]
+- [neorg](https://github.com/nvim-neorg/neorg)[still testing]
 - [project.nvim](https://github.com/ahmedkhalf/project.nvim) [still testing]
 - [which-key.nvim](https://github.com/folke/which-key.nvim) [still testing]
 
@@ -65,6 +79,7 @@ Now you can install your required language-servers using [`Mason`](https://githu
 ``` bash
 :Mason
 ```
+You need to install [ctags](https://ctags.io/)  in order for preservim/tagbar to work. You can find ctags available in official repos of your linux distribution.
 
 ### auto-completion keymaps
 | Keymaps    | Descriptions               |
