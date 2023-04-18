@@ -66,8 +66,8 @@ Now you can install your required language-servers using [`Mason`](https://githu
 :Mason
 ```
 ## which-key
-In order to see shortcut keys you can press <leader> and a popup will come listing shortcut keys for this setup.
-<leader> ie. <space> key is prefix( check after/plugin/which-key.lua) to find its config
+In order to see shortcut keys you can press leader(space key) and a popup will come listing shortcut keys for this setup.
+space key is prefix. Check after/plugin/which-key.lua to find its config
 ![nvim](https://user-images.githubusercontent.com/91145436/232846809-7ac35ef3-a386-402c-993b-c6a998918edb.png)
 
 
