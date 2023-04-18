@@ -34,6 +34,7 @@ Took a lot of reference from
 - [nvim-surround](https://github.com/kylechui/nvim-surround)
 - [alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [project.nvim](https://github.com/ahmedkhalf/project.nvim) [still testing]
+- [which-key.nvim](https://github.com/folke/which-key.nvim) [still testing]
 
 # Themes
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) [active theme]
@@ -64,6 +65,12 @@ Now you can install your required language-servers using [`Mason`](https://githu
 ``` bash
 :Mason
 ```
+## which-key
+In order to see shortcut keys you can press <leader> and a popup will come listing shortcut keys for this setup.
+<leader> ie. <space> key is prefix( check after/plugin/which-key.lua) to find its config
+![nvim](https://user-images.githubusercontent.com/91145436/232846809-7ac35ef3-a386-402c-993b-c6a998918edb.png)
+
+
 ![2023-03-15-22:48:37-screenshot](https://user-images.githubusercontent.com/91145436/225387972-f66d6f5d-f243-4403-a3fc-1fc84c323641.png)
 
 <mark>Note: *you will need to setup your language servers inside the `lua/user/lsp/lsp.lua` using [lsp](https://github.com/neovim/nvim-lspconfig#quickstart), for the full list of configs check [server_configurations.md](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)*</mark>
