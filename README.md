@@ -65,7 +65,43 @@ Now you can install your required language-servers using [`Mason`](https://githu
 ``` bash
 :Mason
 ```
-## which-key
+
+### auto-completion keymaps
+| Keymaps    | Descriptions               |
+|------------|----------------------------|
+| \<C-b>     | Up scrolling docs          |
+| \<C-f>     | Down scrolling docs        |
+| \<C-Space> | complete                   |
+| \<C-e>     | abort completion           |
+| \<CR>      | confirm completion         |
+  \<Tab>     | Down scrolling snippets
+  \<Shift-Tab> | Up scrolling snippets
+
+### Lsp keymaps
+| Keymaps    | Descriptions              |
+|------------|---------------------------|
+| gD         | go to definition          |
+| K          | buf.hover shows more info |
+| [d         | diagnostic jump prev      |
+| ]d         | diagnostic jump next      |
+| \<space>wa | add workspace folder      |
+| \<space>wr | remove workspace folder   |
+| \<space>wl | list workspace folder     |
+| \<space>f  | formatting                |
+| \<space>wl | list workspace folder     |
+| \<space>rn | lsp saga rename           |
+| \<space>ca | lsp saga code action      |
+
+### comment.nvim
+
+| Keymaps | Descriptions  |
+|---------|---------------|
+| gcc     | line comment  |
+| gb      | block comment |
+</br>
+
+# Screenshots
+
 In order to see shortcut keys you can press leader(space key) and a popup will come listing shortcut keys for this setup.
 space key is prefix. Check after/plugin/which-key.lua to find its config
 ![nvim](https://user-images.githubusercontent.com/91145436/232846809-7ac35ef3-a386-402c-993b-c6a998918edb.png)
